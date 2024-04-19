@@ -78,7 +78,10 @@ body{
 }
 
 
-
+.dark-mode{
+  background: #1E222D;
+  color: white;
+}
 
 
 .contentp{
@@ -480,6 +483,8 @@ margin-left: 30px;
 
 
 
+
+
 @media only screen and (min-width: 600px) {
   
   
@@ -612,5 +617,4 @@ border: solid 3px white;
 
 
 }
-
 
