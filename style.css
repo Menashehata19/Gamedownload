@@ -406,9 +406,10 @@ input:focus ~ .input-border {
   position: fixed;
   color: transparent;
   margin-left: 20px;
-  background-image: url('Back-to-Top_1100x500-1024x465.png');
+  background-image: url('https://raw.githubusercontent.com/DownloadPLAY/Game2/main/Back-to-Top_1100x500-1024x465.png?token=GHSAT0AAAAAACQ6NC4YSBPJVKA6E33XCFPCZRCLLKA');
   
   background-size: cover;
+  background-repeat: no-repeat;
   bottom: 4vh;
   z-index: -1;
 }
@@ -452,8 +453,10 @@ input:focus ~ .input-border {
 }
 
 #exiticon{
-  margin-top: -69px;
-  margin-right: 15px;
+position: fixed;
+top: -14px;
+right: 18px;
+
   font-size: 20px;
   font-weight: 400;
 }
@@ -600,7 +603,7 @@ border: solid 3px white;
   border-radius: 50%;
   position: fixed;
   margin-left: 45px;
-  background-image: url('Back-to-Top_1100x500-1024x465.png');
+  background-image: url('https://raw.githubusercontent.com/DownloadPLAY/Game2/main/Back-to-Top_1100x500-1024x465.png?token=GHSAT0AAAAAACQ6NC4YSBPJVKA6E33XCFPCZRCLLKA');
   
   background-size: cover;
   bottom: 4vh;
