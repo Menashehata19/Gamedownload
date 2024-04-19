@@ -9,16 +9,19 @@ let notifiaction = document.getElementById('notifiaction');
 const mytime = setTimeout(mygreeting, 6000);
 
 
+const viprate34 = setTimeout(vipratetime, 6000)
 
+function vipratetime() {
+  // Tab to edit
+  window.navigator.vibrate([200, 100, 200])
+  
 
-
+}
 
 function mygreeting() {
   // Tab to 
   
-  window.navigator.vibrate([200, 100, 200])
   
-
 
 notifiaction.style.display="block";
 
