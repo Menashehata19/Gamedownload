@@ -1,18 +1,33 @@
 let div = document.getElementById('menudiv');
 
+
+
+
 let notifiaction = document.getElementById('notifiaction');
 
 
 const mytime = setTimeout(mygreeting, 6000);
 
+
+
+
+
+
 function mygreeting() {
-  // Tab to edit
-notifiaction.style.display="block"
+  // Tab to 
+  
+  window.navigator.vibrate([200, 100, 200])
+  
+
+
+notifiaction.style.display="block";
+
 }
 
 function exitfanction() {
   // Tab to edit
   notifiaction.style.display="none"
+  
 }
 
 
@@ -25,7 +40,10 @@ const mytime5 = setTimeout(textnoti1, 8000);
 function textnoti1() {
   // Tab to edit
   
+  
 textnoti.innerHTML="مطور الموقع مينا شحاتة"
+
+
 }
 
 
@@ -53,7 +71,7 @@ function menushow() {
   else {
 div.style.display="block"
   }
-
+navigator.vibrate(10);
 
 }
 
@@ -62,12 +80,15 @@ function exitclick() {
   // Tab to edit
   div.style.display="none"
 divab.style.display="none"
+navigator.vibrate([10]);
 }
 
 
 function myfanction() {
   // Tab to edit
   return "&"
+  
+
 }
 
 
@@ -224,28 +245,6 @@ function filterFunction() {
       a[i].style.display = "none";
     }
   }
-}
-
-
-
-
-
-// Check if a storage object exists for the website
-if (typeof Storage !== "undefined") {
-  // If it does, retrieve the current visitor count
-  var visitorCount = localStorage.getItem("visitorCount") || 0;
-  
-  // Convert the count to an integer and increment it
-  visitorCount = parseInt(visitorCount) + 1;
-  
-  // Store the new visitor count in local storage
-  localStorage.setItem("visitorCount", visitorCount);
-  
-  // Display the new visitor count on the page
-  document.getElementById("visitorCountDisplay").innerHTML = "Visitors: " + visitorCount;
-} else {
-  // If local storage is not supported, display an error message
-  document.getElementById("visitorCountDisplay").innerHTML = "Error: local storage not supported";
 }
 
 
