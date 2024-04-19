@@ -251,5 +251,14 @@ function filterFunction() {
 }
 
 
+let txt = document.getElementById('myInput');
 
 
+if (localStorage.length > 0) {
+txt.value = localStorage.getItem('txt')
+}
+
+
+txt.onkeyup = () =>{
+  localStorage.setItem('txt', txt.value)
+}
