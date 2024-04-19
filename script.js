@@ -1,71 +1,5 @@
 let div = document.getElementById('menudiv');
 
-
-
-
-let notifiaction = document.getElementById('notifiaction');
-
-
-const mytime = setTimeout(mygreeting, 6000);
-
-
-const viprate34 = setTimeout(vipratetime, 6000)
-
-function vipratetime() {
-  // Tab to edit
-  window.navigator.vibrate([200, 100, 200])
-  
-
-}
-
-function mygreeting() {
-  // Tab to 
-  
-  
-
-notifiaction.style.display="block";
-
-}
-
-function exitfanction() {
-  // Tab to edit
-  notifiaction.style.display="none"
-  
-}
-
-
-let textnoti = document.getElementById('textnoti2');
-
-
-const mytime5 = setTimeout(textnoti1, 8000);
-
-
-function textnoti1() {
-  // Tab to edit
-  
-  
-textnoti.innerHTML="مطور الموقع مينا شحاتة"
-
-
-}
-
-
-const closenoti = setTimeout(closenotifaction1, 10500);
-
-function closenotifaction1() {
-  // Tab to edit
-  notifiaction.style.display="none"
-  
-}
-
-
-
-
-
-
-
-
-
 function menushow() {
   // Tab to edit
   if (div.style.display == "none") {
@@ -74,7 +8,7 @@ function menushow() {
   else {
 div.style.display="block"
   }
-navigator.vibrate(10);
+
 
 }
 
@@ -83,15 +17,12 @@ function exitclick() {
   // Tab to edit
   div.style.display="none"
 divab.style.display="none"
-navigator.vibrate([10]);
 }
 
 
 function myfanction() {
   // Tab to edit
   return "&"
-  
-
 }
 
 
@@ -251,14 +182,44 @@ function filterFunction() {
 }
 
 
-let txt = document.getElementById('myInput');
 
 
-if (localStorage.length > 0) {
-txt.value = localStorage.getItem('txt')
+
+
+
+
+
+
+
+
+
+
+// تحقق من تفضيل الوضع المظلم في localStorage
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark-mode');
+}
+
+// تبديل الوضع المظلم وحفظ التفضيل في localStorage
+function toggleDarkMode() {
+  var element = document.body;
+  element.classList.toggle('dark-mode');
+  
+  if (element.classList.contains('dark-mode')) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.removeItem('theme');
+  }
 }
 
 
-txt.onkeyup = () =>{
-  localStorage.setItem('txt', txt.value)
-}
+
+
+
+
+
+
+
+
+
+
+
