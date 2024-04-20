@@ -515,10 +515,23 @@ margin-left: 30px;
   border-radius: 20px;
 }
 
+.nameplay{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 33px;
+  
+  font-size: 15.6px;
+  word-wrap: break-word;
+}
 
-
-
-
+.textdescription{
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 39px;
+  text-align: center;
+}
 
 
 
