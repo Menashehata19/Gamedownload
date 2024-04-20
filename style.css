@@ -217,7 +217,7 @@ margin-right: 20px;
   background-size: cover;
   position: fixed;
   color: transparent;
-  z-index: -1;
+  z-index: 1;
 }
 
 
@@ -294,7 +294,7 @@ div.scrollmenu {
   height: 160px;
   border-radius: 20px;
   box-shadow: 
-inset 1px 2px 15px #2D333F,
+inset 1px 2px 15px #3C4558,
   inset -5px -5px 10px #3C4558;
     
     
@@ -305,7 +305,13 @@ inset 1px 2px 15px #2D333F,
 
 .imgscrool{
   width: 100px;
+    
+    
+    z-index: -1;
+  
   border-radius: 20px;
+  z-index: 0;
+  
 }
 
 
@@ -414,7 +420,7 @@ input:focus ~ .input-border {
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 4vh;
-  z-index: -1;
+  z-index: 1;
 }
 
 
@@ -475,6 +481,60 @@ margin-left: 30px;
    font-size: 14px;
 }
 
+.iconbest7{
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+  margin-left: 40px;
+}
+
+
+.playdiv{
+  background:#3C4558;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  top: 10px;
+  color: transparent;
+  border-radius: 20px;
+  display: inline-block;
+  width: 170px;
+  height: 180px;
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: -1;
+}
+
+
+.imgdiv1{
+  width:85px;
+  position: absolute;
+  left: 42px;
+  top: 15px;
+  filter: drop-shadow(  rgba(0, 0, 0, 0.35) 0px 5px 15px);
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -486,7 +546,18 @@ margin-left: 30px;
 
 
 @media only screen and (min-width: 600px) {
-  
+  .playdiv{
+  background:#3C4558;
+  position: relative;
+  top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+  z-index: -1;
+}
+
   
 #notifiaction{
   width: 294px;
@@ -539,6 +610,7 @@ border: solid 3px white;
   border-radius: 20px;
   position: fixed;
   top: 15px;
+  z-index: 1;
   border: solid 1px #FDFDFD75;
   box-shadow: 0px 0px 10px #C1C2CBC4;
 }
@@ -617,4 +689,5 @@ border: solid 3px white;
 
 
 }
+
 
