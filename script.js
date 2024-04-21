@@ -1,7 +1,50 @@
 let div = document.getElementById('menudiv');
 
+var notifaction = document.getElementById('notifiaction');
+
+let txt = document.getElementById('textnoti2');
+
+setTimeout(innertext , 12000)
+
+
+setTimeout(none,16000)
+
+function none() {
+  // Tab to edit
+  notifaction.style.display="none"
+}
+
+
+function innertext() {
+  // Tab to edit
+  
+  txt.innerHTML="مطور الموقع مينا شحاتة"
+}
+
+
+setTimeout(greeting, 10000);
+setTimeout(greeting3, 10000);
+
+function greeting() {
+  // Tab to edit
+navigator.vibrate(500)
+notifaction.style.display="block"
+
+}
+
+function greeting3() {
+  // Tab to edit
+  navigator.vibrate(500);
+}
+
+function exitfanction() {
+  // Tab to edit
+notifaction.style.display="none"
+}
+
 function menushow() {
   // Tab to edit
+  navigator.vibrate(20)
   if (div.style.display == "none") {
     div.style.display="block"
   }
@@ -15,6 +58,8 @@ div.style.display="block"
 
 function exitclick() {
   // Tab to edit
+  
+navigator.vibrate(22)
   div.style.display="none"
 divab.style.display="none"
 }
@@ -213,9 +258,24 @@ function toggleDarkMode() {
 
 
 
+// منع التكبير والتصغير
+document.addEventListener('wheel', function(e) {
+  if (e.ctrlKey) {
+    e.preventDefault();
+  }
+}, { passive: false });
 
+// منع التكبير والتصغير باستخدام مفاتيح الاختصار
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey && (e.keyCode == 107 || e.keyCode == 109 || e.keyCode == 187 || e.keyCode == 189)) {
+    e.preventDefault();
+  }
+});
 
-
+// تحديث الصفحة كل 5 دقائق
+setTimeout(function(){
+   window.location.reload(1);
+}, 30000);
 
 
 
