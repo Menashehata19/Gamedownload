@@ -3,6 +3,7 @@ body{
   margin: 0px;
   font-family: sans-serif;
   background: white;
+  
 }
 
   .header{
@@ -519,9 +520,9 @@ margin-left: 30px;
   color: white;
   position: absolute;
   top: 90px;
-  left: 33px;
+  left: 30px;
   
-  font-size: 15.6px;
+  font-size: 13.6px;
   word-wrap: break-word;
 }
 
@@ -529,32 +530,170 @@ margin-left: 30px;
   color: white;
   position: absolute;
   top: 130px;
-  left: 39px;
+  left: 46.9px;
   text-align: center;
+}
+
+.nameplaymine{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 38px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+
+.nameplaycarpar{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 46px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayYouTube{
+color: white;
+  position: absolute;
+  top: 90px;
+  left: 55px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayInstabridge{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 48px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayRebal{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 46px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+
+
+.flextextdes{
+  display: flex;
+  justify-content: center;
+}
+
+.nameplayinshot{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 63px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+
+.nameplaycapcut{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 61px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayinternet{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 41px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayRobby{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 46.6px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaycoverfire{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 55px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayscary{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 37px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayhitman{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+  
+}
+.nameplayConstruction{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 16px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaymadskil{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 18px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaysniper{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 55px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+
+.nameplayBladesofBrim{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 38px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*nameplay*/
 
 
 
