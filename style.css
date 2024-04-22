@@ -1,4 +1,3 @@
-
 body{
   margin: 0px;
   font-family: sans-serif;
@@ -294,12 +293,10 @@ div.scrollmenu {
   margin-left: 4px;
   height: 160px;
   border-radius: 20px;
-  box-shadow: 
-inset 1px 2px 15px #3C4558,
-  inset -5px -5px 10px #3C4558;
+  
     
     
-  background: #3C4558;
+  background-image: linear-gradient(160deg,#4A5FBB, #F47A00);
 }
 
 
@@ -689,15 +686,164 @@ color: white;
   font-size: 13.6px;
   word-wrap: break-word;
 }
+.nameplaysubway{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 35px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayDancingRoad{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 43px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayviva{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaykinemaster{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 49px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
 
+.nameplayvn{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 31.5px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayastora{
+color: white;
+  position: absolute;
+  top: 90px;
+  left: 58px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaynoor{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 55px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplaymotion{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 48px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayphoto{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 46.5px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayremini{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayfaceapp{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 38px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
+.nameplayfaceappface{
+color: white;
+  position: absolute;
+  top: 90px;
+  left: 53px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
 
-
-
+}
 /*nameplay*/
 
 
 
 @media only screen and (min-width: 600px) {
+  .textdescription{
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 46.9px;
+  text-align: center;
+}
+  .wrap {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  width: 210px;
+  margin-left: 4px;
+  height: 160px;
+  border-radius: 20px;
+  box-shadow: 
+inset 1px 2px 15px #3C455800,
+  inset -5px -5px 10px #00000000;
+  
+  
+    
+  background-image: linear-gradient(60deg,#4A5FBB, #F47A00);
+}
+
+  
+  #notifiaction{
+  width: 294px;
+  height: 80px;
+  border-radius: 20px;
+  backdrop-filter: blur(100px);
+  margin-right: 10px;
+  position: fixed;
+  border: solid 1px#E3E3E394 ;
+  top: 20px;
+  display: none;
+  color: #282A39;
+  z-index: 1;
+}
+
+  
+  
+  
   .playdiv{
   background:#3C4558;
   position: relative;
