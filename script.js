@@ -209,12 +209,17 @@ let divdark = document.getElementById('darkmode1');
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
+  
+  
+  
+  
 }
 
 function filterFunction() {
   const input = document.getElementById("myInput");
   const filter = input.value.toUpperCase();
   const div = document.getElementById("myDropdown");
+  
   const a = div.getElementsByTagName("a");
   for (let i = 0; i < a.length; i++) {
     txtValue = a[i].textContent || a[i].innerText;
@@ -278,4 +283,252 @@ setTimeout(function(){
 }, 30000);
 
 
+
+function gtasa() {
+  // Tab to edit
+  window.scroll({
+    top:270,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function minecraft() {
+  // Tab to edit
+  
+  window.scroll({
+    top:270,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function carpark() {
+  // Tab to edit
+  
+  window.scroll({
+    top:450,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function GoodPizza() {
+  // Tab to edit
+  window.scroll({
+    top:480,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+  
+}
+
+
+function instadrge() {
+  // Tab to edit
+  
+  window.scroll({
+    top:680,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function rebalrac() {
+  // Tab to edit
+  window.scroll({
+    top:680,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function inshot() {
+  // Tab to edit
+  window.scroll({
+    top:890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function capcut() {
+  // Tab to edit
+  window.scroll({
+    top:890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+  
+}
+
+function internetCaffe() {
+  // Tab to edit
+  window.scroll({
+    top:1090,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function Roopy() {
+  // Tab to edit
+  window.scroll({
+    top:1080,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+function Cover() {
+  // Tab to edit
+  
+  window.scroll({
+    top:1250,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function Scary() {
+  // Tab to edit
+  window.scroll({
+    top:1250,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function hitman() {
+  // Tab to edit
+  window.scroll({
+    top:1450,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function Construction() {
+  // Tab to edit
+  
+  window.scroll({
+    top:1450,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function madskils() {
+  // Tab to edit
+  window.scroll({
+    top:1650,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function sniper() {
+  // Tab to ediwindow.scroll({
+    window.scroll({
+    top:1690,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+
+
+}
+
+
+function blades() {
+  // Tab to edit
+  
+  window.scroll({
+    top:1890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function subway() {
+  // Tab to edit
+  window.scroll({
+    top:1830,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function dancing() {
+  // Tab to edit
+  window.scroll({
+    top:2050,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+  
+}
+
+
+
+function viva() {
+  // Tab to edit
+  window.scroll({
+    top:2050,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function kinemaster() {
+  // Tab to edit
+  window.scroll({
+    top:2270,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function vn() {
+  // Tab to edit
+  window.scroll({
+    top:2290,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function astora(param) {
+  // Tab to edi
+  window.scroll({
+    top:2430,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function noor() {
+  // Tab to edit
+  window.scroll({
+    top:2440,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+  
+}
+
+
+function motioleap() {
+  // Tab to edit
+  window.scroll({
+    top:2650,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function photorom() {
+  // Tab to edit
+  window.scroll({
+    top:2650,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function remini() {
+  // Tab to edit
+  window.scroll({
+    top:2890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function Face() {
+  // Tab to edit
+  window.scroll({
+    top:2890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
 
