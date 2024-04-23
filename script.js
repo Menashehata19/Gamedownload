@@ -210,7 +210,36 @@ let divdark = document.getElementById('darkmode1');
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   
+  setTimeout(changplac,2000);
+
+setTimeout(changplac2,6000);
+
+setTimeout(chang4,8000);
+
+
+  function chang4() {
+  document.getElementById("myInput").placeholder = "Download Gta Vice City";
+  setTimeout(chang50,10000);
   
+function chang50() {
+  document.getElementById("myInput").placeholder = "type Your Text";
+  
+}
+  
+}
+
+
+  function changplac2() {
+  document.getElementById("myInput").placeholder = "Download Gta San Andress";
+  
+}
+
+
+
+function changplac() {
+  document.getElementById("myInput").placeholder = "Download Mine Craft Free";
+}
+
   
   
 }
@@ -612,3 +641,6 @@ function temp() {
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
+
+
+
