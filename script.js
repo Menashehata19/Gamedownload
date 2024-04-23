@@ -604,3 +604,11 @@ function Airco(){
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
+
+function temp() {
+  // Tab to edit
+  window.scroll({
+    top:4100,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
