@@ -865,10 +865,25 @@ color: white;
   font-size: 13.6px;
   word-wrap: break-word;
 }
-/*nameplay*/ 
+.nameplayAngryBirds{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 48px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
 
-
-
+.nameplaytemble{
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  
+  font-size: 13.6px;
+  word-wrap: break-word;
+}
 
 
 
