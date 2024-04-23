@@ -532,3 +532,61 @@ function Face() {
 document.getElementById("myDropdown").classList.toggle("show");
 }
 
+
+
+function gtavice() {
+  // Tab to edit
+  window.scroll({
+    top:3100,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+function stick() {
+  // Tab to edit
+  window.scroll({
+    top:3090,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function gta3() {
+  // Tab to edit
+  window.scroll({
+    top:3300,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function gtali() {
+  // Tab to edit
+  window.scroll({
+    top:3300,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+function sonic() {
+  // Tab to edit
+  window.scroll({
+    top:3420,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function Tom() {
+  // Tab to edit
+  window.scroll({
+    top:3420,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function zombie() {
+  // Tab to edit
+  window.scroll({
+    top:3640,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+  
+}
