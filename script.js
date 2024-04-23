@@ -4,10 +4,10 @@ var notifaction = document.getElementById('notifiaction');
 
 let txt = document.getElementById('textnoti2');
 
-setTimeout(innertext , 12000)
+setTimeout(innertext , 22000)
 
 
-setTimeout(none,16000)
+setTimeout(none,24000)
 
 function none() {
   // Tab to edit
@@ -22,7 +22,7 @@ function innertext() {
 }
 
 
-setTimeout(greeting, 10000);
+setTimeout(greeting, 20000);
 setTimeout(greeting3, 10000);
 
 function greeting() {
@@ -306,7 +306,7 @@ function carpark() {
   // Tab to edit
   
   window.scroll({
-    top:450,
+    top:490,
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -314,7 +314,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function GoodPizza() {
   // Tab to edit
   window.scroll({
-    top:480,
+    top:490,
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -589,4 +589,18 @@ function zombie() {
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
+}
+function angry() {
+  // Tab to edit
+  window.scroll({
+    top:3890,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function Airco(){
+  window.scroll({
+    top:3900,
+  })
+document.getElementById("myDropdown").classList.toggle("show");
 }
