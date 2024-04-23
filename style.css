@@ -365,32 +365,27 @@ div.scrollmenu {
 }
 /* styling of Input */
 .input {
- color: #24272E;
+ color: #676767;
  font-size: 0.9rem;
- background-color: transparent;
- width: 100%;
+ min-width: 265px;
+ margin-top: -4px;
+ background-color: #ECECEC;
+ margin-left: -2px;
+ border-radius: 20px 20px 0px 0px;
  height: 50px;
+ position: fixed;
+ 
  box-sizing: border-box;
  padding-inline: 0.5em;
  padding-block: 0.7em;
- border: none;
+ border: solid 2px transparent;
 
  border-bottom: var(--border-height) solid var(--border-before-color);
 }
 /* styling of animated border */
-.input-border {
- position: absolute;
- background: var(--border-after-color);
- width: 0%;
- height: 2px;
- bottom: 0;
- left: 0;
- transition: 0.3s;
-}
+
 /* Hover on Input */
-input:hover {
- background: var(--input-hovered-color);
-}
+
 
 input:focus {
  outline: none;
@@ -884,6 +879,12 @@ color: white;
   font-size: 13.6px;
   word-wrap: break-word;
 }
+h6.mena{
+  text-align: center;
+
+
+  color: #1E222D;
+}
 
 
 
@@ -1049,7 +1050,9 @@ border: solid 3px white;
 
 
   height: 400px;
-  margin-top: -8px;
+
+margin-top: -8;
+
 }
 #menudiv{
   background: #FFFFFF;
