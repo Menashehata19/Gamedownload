@@ -886,28 +886,141 @@ body{
     color: #1E222D;
   }
   
+  .nameplayworm{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+  }
   
+  .nameplaySolarSmach{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 47px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+  }
   
+  .nameplayDreamLeague{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 23px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+  }
   
+.nameplayshadow{
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 39px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+}
   
+.nameplaywallpeper{
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 56px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+}
+.nameplaywallpeperZ{
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 32px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+}
   
+  .nameplayios16{
+
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 34px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+
+  }
+  .nameplayios17{
+
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 36px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+}
   
+  .nameplaygameshark{
+    
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 26px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+
+  }
   
+  .nameplaysnap{
+
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+
+  }
+  .nameplayvpn{
   
+  color: white;
+    position: absolute;
+    top: 90px;
+    left: 36px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+
+  }
   
+  .nameplayzarchive{
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 56px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+  }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  .nameplaysrShe{
+        color: white;
+    position: absolute;
+    top: 90px;
+    left: 66px;
+    
+    font-size: 13.6px;
+    word-wrap: break-word;
+  }
   
   
   
@@ -1101,7 +1214,8 @@ body{
   
   
   }
-@media screen (min-width:150px) and (max-width: 300px){
+  
+@media only screen and (min-width:150px) and (max-width:300px){
     body{
         background: red;
     }
