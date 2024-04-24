@@ -309,7 +309,7 @@ document.addEventListener('keydown', function(e) {
 // تحديث الصفحة كل 5 دقائق
 setTimeout(function(){
    window.location.reload(1);
-}, 30000);
+}, 90000);
 
 
 
@@ -641,5 +641,6 @@ function temp() {
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
+
 
 
