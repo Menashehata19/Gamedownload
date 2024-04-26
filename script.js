@@ -644,3 +644,14 @@ document.getElementById("myDropdown").classList.toggle("show");
 
 
 
+var mine = document.getElementById("minectafthref");
+
+mine.addEventListener('click',function(){
+  
+  window.location.href="https://menashehata19.github.io/Minecd/";
+  
+})
+function minecraft() {
+  // Tab to edit
+  location.href="https://menashehata19.github.io/Minecd/"
+}
