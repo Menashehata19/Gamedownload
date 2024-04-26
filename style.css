@@ -16,6 +16,7 @@ body{
     top: 15px;
     border: solid 2px #FDFDFD75;
     box-shadow: 0px 0px 10px #C1C2CBC4;
+    z-index: 1;
   }
   .menuicon{
     width: 50px;
@@ -498,7 +499,8 @@ body{
     height: 180px;
     margin-top: 16px;
     margin-left: 5px;
-    z-index: -1;
+    
+    
   }
   
   
@@ -628,6 +630,7 @@ body{
     font-size: 13.6px;
     word-wrap: break-word;
   }
+
   .nameplayscary{
     color: white;
     position: absolute;
@@ -1078,7 +1081,7 @@ body{
     width: 170px;
     height: 170px;
     margin: 10px;
-    z-index: -1;
+    
   }
   
     
