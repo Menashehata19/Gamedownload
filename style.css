@@ -500,7 +500,7 @@ body{
     height: 180px;
     margin-top: 16px;
     margin-left: 5px;
-    
+    z-index: -1;
     
   }
   
