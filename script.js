@@ -316,7 +316,9 @@ setTimeout(function(){
 function gtasa() {
   // Tab to edit
   window.scroll({
-    top:270,
+    top:270,behavior: "smooth",
+    
+    behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -326,7 +328,8 @@ function minecraft() {
   // Tab to edit
   
   window.scroll({
-    top:270,
+    top:270,behavior: "smooth",
+    behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -335,7 +338,8 @@ function carpark() {
   // Tab to edit
   
   window.scroll({
-    top:490,
+    top:490,behavior: "smooth",
+    behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -343,7 +347,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function GoodPizza() {
   // Tab to edit
   window.scroll({
-    top:490,
+    top:490,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -354,7 +358,7 @@ function instadrge() {
   // Tab to edit
   
   window.scroll({
-    top:680,
+    top:680,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -362,7 +366,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function rebalrac() {
   // Tab to edit
   window.scroll({
-    top:680,
+    top:680,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -370,7 +374,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function inshot() {
   // Tab to edit
   window.scroll({
-    top:890,
+    top:890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -379,7 +383,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function capcut() {
   // Tab to edit
   window.scroll({
-    top:890,
+    top:890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -388,7 +392,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function internetCaffe() {
   // Tab to edit
   window.scroll({
-    top:1090,
+    top:1090,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -397,7 +401,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function Roopy() {
   // Tab to edit
   window.scroll({
-    top:1080,
+    top:1080,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -405,7 +409,7 @@ function Cover() {
   // Tab to edit
   
   window.scroll({
-    top:1250,
+    top:1250,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -413,7 +417,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function Scary() {
   // Tab to edit
   window.scroll({
-    top:1250,
+    top:1250,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -422,7 +426,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function hitman() {
   // Tab to edit
   window.scroll({
-    top:1450,
+    top:1450,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -432,7 +436,7 @@ function Construction() {
   // Tab to edit
   
   window.scroll({
-    top:1450,
+    top:1450,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -440,7 +444,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function madskils() {
   // Tab to edit
   window.scroll({
-    top:1650,
+    top:1650,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -449,7 +453,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function sniper() {
   // Tab to ediwindow.scroll({
     window.scroll({
-    top:1690,
+    top:1690,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 
@@ -461,7 +465,7 @@ function blades() {
   // Tab to edit
   
   window.scroll({
-    top:1890,
+    top:1890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -469,7 +473,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function subway() {
   // Tab to edit
   window.scroll({
-    top:1830,
+    top:1830,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -478,7 +482,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function dancing() {
   // Tab to edit
   window.scroll({
-    top:2050,
+    top:2050,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -489,7 +493,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function viva() {
   // Tab to edit
   window.scroll({
-    top:2050,
+    top:2050,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -497,7 +501,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function kinemaster() {
   // Tab to edit
   window.scroll({
-    top:2270,
+    top:2270,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -506,7 +510,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function vn() {
   // Tab to edit
   window.scroll({
-    top:2290,
+    top:2290,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -514,7 +518,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function astora(param) {
   // Tab to edi
   window.scroll({
-    top:2430,
+    top:2430,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -522,7 +526,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function noor() {
   // Tab to edit
   window.scroll({
-    top:2440,
+    top:2440,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -532,7 +536,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function motioleap() {
   // Tab to edit
   window.scroll({
-    top:2650,
+    top:2650,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -540,7 +544,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function photorom() {
   // Tab to edit
   window.scroll({
-    top:2650,
+    top:2650,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -548,7 +552,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function remini() {
   // Tab to edit
   window.scroll({
-    top:2890,
+    top:2890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -556,7 +560,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function Face() {
   // Tab to edit
   window.scroll({
-    top:2890,
+    top:2890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -566,7 +570,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function gtavice() {
   // Tab to edit
   window.scroll({
-    top:3100,
+    top:3100,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -575,7 +579,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function stick() {
   // Tab to edit
   window.scroll({
-    top:3090,
+    top:3090,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -583,7 +587,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function gta3() {
   // Tab to edit
   window.scroll({
-    top:3300,
+    top:3300,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -591,14 +595,14 @@ document.getElementById("myDropdown").classList.toggle("show");
 function gtali() {
   // Tab to edit
   window.scroll({
-    top:3300,
+    top:3300,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
 function sonic() {
   // Tab to edit
   window.scroll({
-    top:3420,
+    top:3420,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -606,7 +610,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function Tom() {
   // Tab to edit
   window.scroll({
-    top:3420,
+    top:3420,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -614,7 +618,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function zombie() {
   // Tab to edit
   window.scroll({
-    top:3640,
+    top:3640,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
   
@@ -622,14 +626,14 @@ document.getElementById("myDropdown").classList.toggle("show");
 function angry() {
   // Tab to edit
   window.scroll({
-    top:3890,
+    top:3890,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
 
 function Airco(){
   window.scroll({
-    top:3900,
+    top:3900,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -637,7 +641,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 function temp() {
   // Tab to edit
   window.scroll({
-    top:4100,
+    top:4100,behavior: "smooth",
   })
 document.getElementById("myDropdown").classList.toggle("show");
 }
