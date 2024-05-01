@@ -228,6 +228,7 @@ body{
   .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 1;
   }
   
   .dropdown-content {
@@ -241,7 +242,7 @@ body{
     overflow: scroll;
     border: 3px solid #FFFFFF99;
     border-radius: 20px;
-    z-index: 0;
+    z-index: 1;
   }
   
   .dropdown-content a {
@@ -356,6 +357,7 @@ body{
   
   
   .form {
+    
    --width-of-input: 260px;
    --border-height: 1.5px;
    --border-before-color: rgba(221, 221, 221, 0.39);
@@ -363,6 +365,7 @@ body{
    --input-hovered-color: #4985e01f;
    position: relative;
    width: var(--width-of-input);
+   z-index: 0;
   }
   /* styling of Input */
   .input {
@@ -382,6 +385,7 @@ body{
    border: solid 2px transparent;
   
    border-bottom: var(--border-height) solid var(--border-before-color);
+   z-index: 9;
   }
   /* styling of animated border */
   
@@ -500,7 +504,7 @@ body{
     height: 180px;
     margin-top: 16px;
     margin-left: 5px;
-    z-index: -1;
+    
     
   }
   
@@ -1082,7 +1086,7 @@ body{
     width: 170px;
     height: 170px;
     margin: 10px;
-    
+    z-index: -1;
   }
   
     
@@ -1199,11 +1203,12 @@ body{
   }
   
   
-    .dropdown-content {
+.dropdown-content {
     position: fixed;
     top: 146px;
+    z-index: 1;
     }
-  #progress{
+#progress{
     width: 50px;
     height: 50px;
     border-radius: 50%;
