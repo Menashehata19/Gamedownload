@@ -1,661 +1,72 @@
-let div = document.getElementById('menudiv');
-
-var notifaction = document.getElementById('notifiaction');
-
-let txt = document.getElementById('textnoti2');
-
-setTimeout(innertext , 22000)
+document.addEventListener("touchstart",function(){},{passive:!0}),document.getElementById("changeimg").addEventListener("click",function(){document.getElementById("fileInput").click()}),document.addEventListener("DOMContentLoaded",e=>{let t=document.getElementById("fileInput"),n=document.getElementById("imageContainer");function l(e){localStorage.setItem("image",e)}function o(){let e=localStorage.getItem("image");e&&a(e)}function a(e){n.innerHTML="";let t=document.createElement("img");t.src=e,n.appendChild(t),imageContainer2.src=e,t.style.width="48px",t.style.borderRadius="48%",t.style.height="48px",t.style.position="absolute",t.style.top="0px",t.style.border=" solid 1.5px #606676"}o(),t.addEventListener("change",function(){let e=this.files[0];if(e){let t=new FileReader;t.onload=function(e){let t=e.target.result;l(t),a(t)},t.readAsDataURL(e)}})});let accountack=document.getElementById("backinfromation");function cloceinfromation(){accountack.style.display="none",navigator.vibrate(39)}function generateRandomNumberCode(e){let t="0123456789",n="";for(let l=0;l<e;l++){let o=Math.floor(Math.random()*t.length);n+=t.charAt(o)}return n}document.getElementById("imageContainer").addEventListener("click",function(){document.getElementById("backinfromation").style.display="block"}),document.getElementById("accountprofile").addEventListener("click",function(){document.getElementById("backinfromation").style.display="block"});let randomNumberCode=generateRandomNumberCode(10);function showmenu(){document.getElementById("backmenu").style.display="block" ,navigator.vibrate(30)}function clocemenu(){document.getElementById("backmenu").style.display="none",document.body.style.overflow="visible",navigator.vibrate(30)}function createinput(){document.getElementById("inputbacka").style.display="block"}function saveText(){document.getElementById("userInput"),document.getElementById("inputbacka").style.display="none",window.location.reload();let e=document.getElementById("userInput").value;localStorage.setItem("userText",e),localStorage.setItem("userText",e);let t=localStorage.getItem("userText");document.getElementById("displayText").textContent=t}localStorage.setItem("randomNumberCode",randomNumberCode),document.getElementById("randomCode").textContent="id : "+randomNumberCode,console.log("Random Number Code:",randomNumberCode),console.log("Saved in Local Storage:",localStorage.getItem("randomNumberCode")),document.getElementById("svgmenushow").addEventListener("click",function(){document.getElementById("backmenu").style.display="block",document.body.style.overflow="hidden"}),document.getElementById("closemenui").addEventListener("click",function(){document.getElementById("backmenu").style.display="none",document.getElementById("locationshow12").style.display="none"}),window.onload=function(){let e=localStorage.getItem("userText");e&&(document.getElementById("profiletxt1").textContent=e,document.getElementById("profiletxt").textContent=e)};let profiletxt1=document.getElementById("profiletxt");function cloceuser(){document.getElementById("inputbacka").style.display="none"}function clocemenudark(){setTimeout(function e(){document.getElementById("backmenu").style.display="none",document.body.style.overflow="visible"},180),navigator.vibrate(30)}function language1trane(){window.location.href="https://gameplay7.netlify.app/"}function language2trane(){window.location.href="https://gameplay7-ar.netlify.app/"}function language3trane(){window.location.href="https://gameplay7-en.netlify.app/"}function language4trane(){window.location.href="https://gameplay7-es.netlify.app/"}function language5trane(){window.location.href="https://gameplay7-fr.netlify.app/"}function clocetranslate(){document.getElementById("languagestarten").style.display="none",document.body.style.overflow="visible",navigator.vibrate(30)}function showselectlang(){function e(){navigator.vibrate(30),document.getElementById("backmenu").style.display="none"}document.getElementById("languagestarten").style.display="block",document.body.style.overflow="hidden",navigator.vibrate(30)}function showshare(){document.getElementById("Sharelinkweb").style.display="block",document.body.style.overflow="hidden";navigator.vibrate(30)}function clocemenu2(){document.getElementById("Sharelinkweb").style.display="none",navigator.vibrate(30)}function copylinkweb(e){!function e(t){navigator.clipboard.writeText(t).then(function(){console.log("Text successfully copied to clipboard")}).catch(function(e){console.error("Error copying text: ",e)})}("https://gameplay7.netlify.app/")}profiletxt1.value.length>2&&(profiletxt1.style.fontSize="1px");let txtcountry=document.getElementById("country").value;function locationshow(){document.getElementById("locationshow12").style.display="block",navigator.vibrate("30")}function clocetxtlocation(){document.getElementById("locationshow12").style.display="none",navigator.vibrate("30")}txtcountry="Egypt",alert("");const button=document.getElementById("messangericonshaer"),textToShare="نص للمشاركة\nرابط";button.addEventListener("click",()=>{let e=document.createElement("a");e.href=`fb-messenger://share?text=${encodeURIComponent("نص للمشاركة\nرابط")}`,e.click()});
 
 
-setTimeout(none,24000)
-
-function none() {
-  // Tab to edit
-  notifaction.style.display="none"
-}
-
-
-function innertext() {
-  // Tab to edit
+document.getElementById("svgmenushow").addEventListener('click',function(){
   
-  txt.innerHTML="مطور الموقع مينا شحاتة"
-}
-
-
-setTimeout(greeting, 20000);
-setTimeout(greeting3, 10000);
-
-function greeting() {
-  // Tab to edit
-navigator.vibrate(500)
-notifaction.style.display="block"
-
-}
-
-function greeting3() {
-  // Tab to edit
-  navigator.vibrate(500);
-}
-
-function exitfanction() {
-  // Tab to edit
-notifaction.style.display="none"
-}
-
-function menushow() {
-  // Tab to edit
-  navigator.vibrate(20)
-  if (div.style.display == "none") {
-    div.style.display="block"
-  }
-  else {
-div.style.display="block"
-  }
-
-
-}
-
-
-function exitclick() {
-  // Tab to edit
+  document.getElementById('backmenu').style.display="block"
   
-navigator.vibrate(22)
-  div.style.display="none"
-divab.style.display="none"
-}
-
-
-function myfanction() {
-  // Tab to edit
-  return "&"
-}
-
-
-let divab = document.getElementById('aboutdivphone');
-
-
-function ios1() {
-  // Tab to edi
-  if (divab.style.display="none") {
-    divab.style.display="block"
-  }
-  else {
-    divab.style.display="none"
-  }
-}
-
-
-
-
-function closeabour() {
-  // Tab to edit
-  divab.style.display="none"
-}
-
-
-let na = document.getElementById('abouttext1');
-
-
-
-na.innerHTML=""
-
-
-
-
-
-if (navigator.getBattery) {
-  navigator.getBattery().then(function(battery) {
-    na.innerHTML= "Battery level is: " + battery.level * 100 + "%";
-  });
-} else {
-  console.log("Battery API not supported.");
-}
-
-
-
-
-
-
-const getDeviceType = () => {
-  const ua = navigator.userAgent;
-  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-    return "tablet";
-  }
-  if (
-    /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
-      ua
-    )
-  ) {
-    return "mobile";
-  }
-  return "desktop";
-};
-
-
-
-
-function multiply(num1, num2) {
-  return num1 * num2;
-}
-
-
-let ma = document.getElementById('abouttext2');
-
-ma.innerHTML = "your use : " + (getDeviceType());
-
-
-
-
-
-
-function text(url) {
-  return fetch(url).then(res => res.text());
-}
-
-text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
-  let ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/
-  let ip = data.match(ipRegex)[0];
+  document.body.style.overflow="hidden";
   
-  let abctext = document.getElementById('abouttext3');
-  
-  abctext.innerHTML="ip phone : " + (ip) ;
-});
-
-
-let onlin1 = navigator.onLine;
-
-
-let abctext3 = document.getElementById('abouttext4');
-
-abctext3.innerText="concted internet : " + onlin1;
-
-
-
-
-
-var darkMode = false;
-
-// انشاء دالة لتغيير الوضع المظلم
-function dark() {
-  
-  // تبديل قيمة المتغير
-  darkMode = !darkMode;
-  // التحقق من قيمة المتغير
-  if (darkMode) {
-    // إذا كان الوضع المظلم مفعل، تغيير الأنماط
-    document.body.style.backgroundColor = "#1E222D";
-    document.body.style.color = "white";
-    document.getElementById("button80").innerText = "الوضع المضيء";
-  } else {
-    // إذا كان الوضع المظلم معطل، تغيير الأنماط
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
-    document.getElementById("button80").innerText = "الوضع المظلم";
-  }
-  
-
-  
-}
-
-
-let divdark = document.getElementById('darkmode1');
-
-
-
-
-
-
-
-
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-  
-  setTimeout(changplac,2000);
-
-setTimeout(changplac2,6000);
-
-setTimeout(chang4,8000);
-
-
-  function chang4() {
-  document.getElementById("myInput").placeholder = "Download Gta Vice City";
-  setTimeout(chang50,10000);
-  
-function chang50() {
-  document.getElementById("myInput").placeholder = "type Your Text";
-  
-}
-  
-}
-
-
-  function changplac2() {
-  document.getElementById("myInput").placeholder = "Download Gta San Andress";
-  
-}
-
-
-
-function changplac() {
-  document.getElementById("myInput").placeholder = "Download Mine Craft Free";
-}
-
-  
-  
-}
-
-function filterFunction() {
-  const input = document.getElementById("myInput");
-  const filter = input.value.toUpperCase();
-  const div = document.getElementById("myDropdown");
-  
-  const a = div.getElementsByTagName("a");
-  for (let i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// تحقق من تفضيل الوضع المظلم في localStorage
-if (localStorage.getItem('theme') === 'dark') {
-  document.body.classList.add('dark-mode');
-}
-
-// تبديل الوضع المظلم وحفظ التفضيل في localStorage
-function toggleDarkMode() {
-  var element = document.body;
-  element.classList.toggle('dark-mode');
-  
-  if (element.classList.contains('dark-mode')) {
-    localStorage.setItem('theme', 'dark');
-  } else {
-    localStorage.removeItem('theme');
-  }
-}
-
-
-
-// منع التكبير والتصغير
-document.addEventListener('wheel', function(e) {
-  if (e.ctrlKey) {
-    e.preventDefault();
-  }
-}, { passive: false });
-
-// منع التكبير والتصغير باستخدام مفاتيح الاختصار
-document.addEventListener('keydown', function(e) {
-  if (e.ctrlKey && (e.keyCode == 107 || e.keyCode == 109 || e.keyCode == 187 || e.keyCode == 189)) {
-    e.preventDefault();
-  }
-});
-
-// تحديث الصفحة كل 5 دقائق
-setTimeout(function(){
-   window.location.reload(1);
-}, 90000);
-
-
-
-function gtasa() {
-  // Tab to edit
-  window.scroll({
-    top:270,behavior: "smooth",
-    
-    behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function minecraft() {
-  // Tab to edit
-  
-  window.scroll({
-    top:270,behavior: "smooth",
-    behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function carpark() {
-  // Tab to edit
-  
-  window.scroll({
-    top:490,behavior: "smooth",
-    behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function GoodPizza() {
-  // Tab to edit
-  window.scroll({
-    top:490,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-
-
-function instadrge() {
-  // Tab to edit
-  
-  window.scroll({
-    top:680,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function rebalrac() {
-  // Tab to edit
-  window.scroll({
-    top:680,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function inshot() {
-  // Tab to edit
-  window.scroll({
-    top:890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function capcut() {
-  // Tab to edit
-  window.scroll({
-    top:890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-
-function internetCaffe() {
-  // Tab to edit
-  window.scroll({
-    top:1090,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function Roopy() {
-  // Tab to edit
-  window.scroll({
-    top:1080,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-function Cover() {
-  // Tab to edit
-  
-  window.scroll({
-    top:1250,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function Scary() {
-  // Tab to edit
-  window.scroll({
-    top:1250,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function hitman() {
-  // Tab to edit
-  window.scroll({
-    top:1450,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function Construction() {
-  // Tab to edit
-  
-  window.scroll({
-    top:1450,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function madskils() {
-  // Tab to edit
-  window.scroll({
-    top:1650,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function sniper() {
-  // Tab to ediwindow.scroll({
-    window.scroll({
-    top:1690,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-
-
-}
-
-
-function blades() {
-  // Tab to edit
-  
-  window.scroll({
-    top:1890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function subway() {
-  // Tab to edit
-  window.scroll({
-    top:1830,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function dancing() {
-  // Tab to edit
-  window.scroll({
-    top:2050,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-
-
-
-function viva() {
-  // Tab to edit
-  window.scroll({
-    top:2050,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function kinemaster() {
-  // Tab to edit
-  window.scroll({
-    top:2270,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function vn() {
-  // Tab to edit
-  window.scroll({
-    top:2290,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function astora(param) {
-  // Tab to edi
-  window.scroll({
-    top:2430,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function noor() {
-  // Tab to edit
-  window.scroll({
-    top:2440,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-
-
-function motioleap() {
-  // Tab to edit
-  window.scroll({
-    top:2650,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function photorom() {
-  // Tab to edit
-  window.scroll({
-    top:2650,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function remini() {
-  // Tab to edit
-  window.scroll({
-    top:2890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function Face() {
-  // Tab to edit
-  window.scroll({
-    top:2890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-
-function gtavice() {
-  // Tab to edit
-  window.scroll({
-    top:3100,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-function stick() {
-  // Tab to edit
-  window.scroll({
-    top:3090,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function gta3() {
-  // Tab to edit
-  window.scroll({
-    top:3300,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function gtali() {
-  // Tab to edit
-  window.scroll({
-    top:3300,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-function sonic() {
-  // Tab to edit
-  window.scroll({
-    top:3420,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function Tom() {
-  // Tab to edit
-  window.scroll({
-    top:3420,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function zombie() {
-  // Tab to edit
-  window.scroll({
-    top:3640,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-  
-}
-function angry() {
-  // Tab to edit
-  window.scroll({
-    top:3890,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function Airco(){
-  window.scroll({
-    top:3900,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function temp() {
-  // Tab to edit
-  window.scroll({
-    top:4100,behavior: "smooth",
-  })
-document.getElementById("myDropdown").classList.toggle("show");
-}
-
-
-
-var mine = document.getElementById("minectafthref");
-
-mine.addEventListener('click',function(){
-  
-  window.location.href="https://menashehata19.github.io/Minecd/";
   
 })
-function minecraft() {
+
+
+document.getElementById('mod').setAttribute('translate', 'no');
+
+
+
+
+
+
+function showsearch() {
+  // Tab to 
+  document.getElementById('searchback').style.display="block"
+ navigator.vibrate('30');
+ 
+ document.body.style.overflow="hidden"
+ 
+}
+
+document.documentElement.setAttribute('translate', 'no');
+function clocebacksearch() {
   // Tab to edit
-  location.href="https://menashehata19.github.io/Minecd/"
+  
+ document.getElementById('searchback').style.display="none"
+ navigator.vibrate('30');
+  document.body.style.overflow="visible"
+}
+
+
+let divexit = document.getElementById('exitsearhback');
+
+
+divexit.addEventListener('click', function(){
+  
+  document.getElementById('searchback').style.display="none"
+ navigator.vibrate('30');
+ 
+ document.body.style.overflow="hidden"
+  
+})
+
+
+
+document.getElementById('svgsearchico').addEventListener('click', function(){
+  
+  
+  document.getElementById('searchback').style.display="block"
+ navigator.vibrate('30');
+ 
+ document.body.style.overflow="hidden"
+})
+
+
+
+// تعيين سمة translate="no" إلى جميع عناصر HTML في الصفحة
+document.documentElement.setAttribute("translate", "no");
+
+var allElements = document.getElementsByTagName("*");
+
+for (var i = 0; i < allElements.length; i++) {
+    allElements[i].setAttribute("translate", "no");
 }
